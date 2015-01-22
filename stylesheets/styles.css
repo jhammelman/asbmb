@@ -206,9 +206,9 @@ hr {
 
 footer {
   width:270px;
-  float:left;
+  float:right;
   position:fixed;
-  bottom:50px;
+  bottom:5px;
 }
 
 @media print, screen and (max-width: 960px) {
