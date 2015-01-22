@@ -6,6 +6,34 @@ body {
   color:#777;
   font-weight:300;
 }
+#navigation {
+position: fixed;
+top: 0;
+width: 900px;
+color: #222;
+height: 30px;
+text-align: center;
+padding-top: 10px;
+/* Adds shadow to the bottom of the bar */
+-webkit-box-shadow: 0px 0px 8px 0px #000000;
+-moz-box-shadow: 0px 0px 8px 0px #000000;
+box-shadow: 0px 0px 8px 0px #000000;
+/* Adds the transparent background */
+background-color: rgba(24,  116,  200, 0.8);
+color: rgba(24,  116,  200, 0.8);
+}
+
+#navigation a {
+font-size: 14px;
+padding-left: 15px;
+padding-right: 15px;
+color: white;
+text-decoration: none;
+}
+
+#navigation a:hover {
+color: grey;
+} 
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
